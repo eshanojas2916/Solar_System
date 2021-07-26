@@ -1,0 +1,57 @@
+h3, h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  padding: 5% 7%;
+  font-family: "Titillium";
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/* Slide show */
+#slide-show, .content-box-1 {
+  text-align: center;
+}
+
+.home-carousel {
+  margin-top: 10%;
+  width: 75%;
+  height: auto;
+}
+
+/* Content */
+
+.content-box-1, .content-box-2 {
+  padding: 5% 7%;
+}
+
+#content {
+  margin: 10% 0 0;
+  background-color: white;
+}
+
+/* CARD */
+
+.data-card {
+  padding: 3% 2%;
+}
+
+.card-box {
+  padding: 5% 7%;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;;
+  background-color: #171717;
+  color: #fff;
+}
