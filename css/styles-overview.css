@@ -1,0 +1,160 @@
+body{
+  background-color: #060606;
+  background-image: linear-gradient(to right,#060606, #1f1f1f);
+  color: #ccc;
+}
+
+ h3{
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ /* title */
+ #title
+ {
+   font-family: "Montserrat";
+   background-color: #050A30;
+   /* margin-bottom: 10px; */
+ }
+
+ hr {
+   /* border-style: none; */
+   height: 2px;
+   border-color: #444;
+   margin-top: 0;
+ }
+
+.title-image{
+  width: 75%;
+  height: auto;
+}
+.image-box{
+  background-color: #000;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.navbar-brand, .nav-link {
+  font-size: 1.25rem;
+  color: grey;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #fff;
+}
+
+
+/* content */
+#content{
+  margin-bottom: 10%;
+  line-height: 2;
+  font-size: 1.25rem;
+  text-align: left;
+}
+.planet{
+  padding: 10px;
+  padding-left: 0;
+}
+.planet-content{
+  text-align: justify;
+  padding-right: 5%;
+}
+
+.btn{
+  background-color: #E8F6EF;
+}
+
+.Download-button{
+  background-color: #ddd;
+  width: 40%;
+  height: 30%;
+  text-align: left;
+  padding-left: 5%;
+  font-family: "Montserrat";
+  margin: 2% 0;
+}
+
+.button-position{
+  padding-left: 0;
+}
+
+/* footer */
+
+#data{
+  padding: 0 10%;
+  margin-top: 4% 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card-body{
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+}
+.card-box{
+  background-color: #050A2f;
+  padding: 0 7%;
+}
+
+.data-card{
+  padding: 3% 2%;
+}
+
+
+/* Internal structure */
+.internal-image{
+  border-radius: 100%;
+  width: 60%;
+  height: auto;
+  padding-top: 5%;
+}
+
+/* Geology */
+.carousel-box{
+  padding: 3%;
+}
+
+/* planet images */
+
+.mercury-image {
+  padding-top: 8%;
+  width: 57%;
+  height: auto;
+}
+
+.venus-image {
+  padding-top: 7%;
+}
+
+.earth-image {
+  padding-top: 8%;
+  width: 57%;
+  height: auto;
+}
+
+.jupiter-image {
+  padding-top: 4%;
+  width: 65%;
+  height: auto;
+}
+
+.saturn-image {
+  padding-top: 3%;
+  width: 80%;
+  height: auto;
+}
+
+.uranus-image {
+}
+
+.neptune-image {
+}

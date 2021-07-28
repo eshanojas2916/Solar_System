@@ -1,9 +1,16 @@
+body {
+  background-color: #060606;
+  background-image: linear-gradient(to right,#060606, #1f1f1f);
+  color: #ccc;
+}
+
 h3, h1 {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h2 {
+  color: #fff;
   font-family: "Montserrat";
   font-size: 2rem;
   text-align: center;
@@ -11,13 +18,37 @@ h2 {
 
 p {
   padding: 5% 7%;
-  font-family: "Titillium";
+  font-family: "Montserrat";
   font-size: 1.5rem;
   margin-bottom: 0;
 }
 
+hr {
+  /* border-style: none; */
+  height: 2px;
+  border-color: #444;
+  margin-top: 0;
+}
+
+
+/* title */
+
+#title {
+  background-color: #050A30;
+  font-family: "Montserrat";
+}
+
+.navbar-brand, .nav-link {
+  font-size: 1.25rem;
+  color: grey;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #fff;
+}
+
 /* Slide show */
-#slide-show, .content-box-1 {
+#slide-show {
   text-align: center;
 }
 
@@ -30,23 +61,46 @@ p {
 /* Content */
 
 .content-box-1, .content-box-2 {
-  padding: 5% 7%;
+  padding: 0 7% 5%;
 }
 
 #content {
   margin: 10% 0 0;
-  background-color: white;
+}
+
+.content-box-1 {
+  text-align: justify;
+}
+
+.solar-head {
+  text-align: center;
 }
 
 /* CARD */
 
-.data-card {
+#info-cards {
+  background-color: #050A30;
+  color: #333;
+}
+
+.data-card{
   padding: 3% 2%;
 }
 
 .card-box {
-  padding: 5% 7%;
+  padding: 3% 7%;
 }
+
+.card {
+  border-width: 1px;
+}
+
+
+.data-head {
+  padding-left: 0;
+}
+
+
 
 /* footer */
 
@@ -54,4 +108,5 @@ p {
   text-align: center;;
   background-color: #171717;
   color: #fff;
+  padding: 3% auto;
 }
